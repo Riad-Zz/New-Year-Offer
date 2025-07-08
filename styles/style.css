@@ -28,6 +28,14 @@
     color: white;
     cursor: pointer;
 }
+.center{
+    text-align: center;
+}
+
+.big-text{
+    font-size: 72px;
+    font-weight: 900;
+}
 
 /*Navigation Bar*/
 nav ul{
@@ -49,3 +57,35 @@ nav ul li:hover{
     color:#FF0000 ;
     cursor: pointer;
 }
+
+/*main Section*/
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/*banner-section*/
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.0)) , url(../assets/images/Banner\ Image.png);
+    border-radius: 16px;
+    /* background-size: cover;
+    background-attachment: fixed; */
+}
+.big-title{
+    height: 190px;
+    width: 632px;
+    color: #FFFFFF;
+}
+.small-title{
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
