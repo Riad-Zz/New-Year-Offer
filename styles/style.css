@@ -167,3 +167,62 @@ main{
 .location-btn{
     margin-top: 70px;
 }
+/*Coming Soon Section*/
+.upcoming{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 463px;
+    /* gap:100px ; */
+}
+.coming-soon,.year,.image{
+    padding-top: 104px;
+    width: 363px;
+}
+.txt{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+.CS{
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.des{
+    font-size: 20px;
+    font-weight:300 ;
+    margin-bottom: 43px;
+}
+.num{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+/* .image img{
+    height: 100%;
+    width: 100%;
+} */
+.image{
+    /* padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px ; */
+    padding: 40px;
+    height: 400px;
+    width: 400px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+}
+
+/* .image img{
+    border-radius:50% ;
+    padding: 49.08px;
+    padding-top: 20px;
+} */
+
+.image img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
