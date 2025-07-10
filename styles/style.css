@@ -25,7 +25,11 @@
 .color-4{
     color: #070211;
 }
-
+.textt{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
 .btn{
     height: 56px;
     width: 167px;
@@ -348,3 +352,51 @@ main{
     font-weight: 600;
     color: #FFFFFF;
  }
+
+ /*footer section */
+ .footer-section{
+    margin-top: 120px;
+    background-color:#070211 ;
+    height: 609px;
+ }
+ .main-foot{
+    max-width:1320px ;
+    margin: 0 auto ;
+ }
+ .address{
+    display: flex;
+    justify-content: space-between;
+ }
+ .first{
+    margin-bottom: 10px;
+ }
+  .locationn1,.locationn2{
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    
+  }
+  .icons img{
+    transition: transform 0.5s ease;
+  }
+  .icons img:hover{
+    transform: scale(1.5);
+  }
+  
+  .copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  hr{
+    border: none;
+    height: 2px;
+    background-color: #494646;
+  }
