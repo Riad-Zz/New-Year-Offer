@@ -231,7 +231,7 @@ main{
 /*Holiday Section */
 .Holiday-Sale{
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 900px;
 }
 .red_bg{
     background-image: url(../assets/images/Rectangle\ 2.png);
@@ -282,7 +282,7 @@ main{
 }
 /*Product Showcase*/
 .product-showcase{
-    margin-top: 900px;
+    /* margin-top: 900px; */
     margin-bottom: 120px;
 }
 .description{
